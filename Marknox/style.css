@@ -1,0 +1,43 @@
+body {
+    background-color: #121212;
+    color: white;
+}
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+}
+.card img {
+    border-radius: 7px;
+    max-width: 56px;  /* Set to your desired image size */
+    height: auto;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin-top: 20px;
+}
+.about-section, .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
